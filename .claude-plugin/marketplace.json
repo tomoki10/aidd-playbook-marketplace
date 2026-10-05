@@ -1,0 +1,15 @@
+{
+  "name": "aidd-playbook-marketplace",
+  "description": "Claude Code チーム開発実践研修の講師用 marketplace。組織ポリシーを Skill として配布する",
+  "owner": {
+    "name": "佐藤智樹"
+  },
+  "plugins": [
+    {
+      "name": "secure-api",
+      "source": "./plugins/secure-api",
+      "description": "外部公開エンドポイントを作る・変えるときのセキュリティ観点を spec と実装に反映させる",
+      "version": "1.0.0"
+    }
+  ]
+}
